@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	The .git hidden folder is created, which gives all the files necessary to run git command within that folder.
