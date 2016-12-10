@@ -1,0 +1,12 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	It removes the noise and quickly pinpoints the differences without me having to parse each line. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	When things go through iterative changes, it is often the case that multiple backtracks are necessary. Having access to the exact changes is very useful in these cases. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	The main benefit is that the best judge of when a "logical change" has occured is the programmer. Like all tools, it is only as useful as how it is used; which gives benefit to random periodic changes. This would have to have some sort of smart way of thinking to avoid saves that would not compile or otherwise prove non-beneficial because these would simply add noise. 
