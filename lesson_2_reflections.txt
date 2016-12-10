@@ -1,3 +1,27 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 	The .git hidden folder is created, which gives all the files necessary to run git command within that folder.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	the staging area works as an intermediary between your working director and the repository. It gives more control when first getting things put into github which is exspecially useful when adding a project that hasn't gone through incremetal backups during initial development. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	The staging area allows us to pick changes from our working directory as we pick individual files. By putting them in the staging area first, we can compare them to the previous commit and ensure that it truly is one logical change per commit. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	branches seem mostly important for manging multiple feature additions at once. This is especially important when working with multiple people who might want to commit changes without adding it to the master, which would affect their coworkers. 
+	
+How do the diagrams help you visualize the branch structure?
+
+	it's easier to see where things branch and how they connect, more than just knowing each head.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	It combines all the changes from two branches back into 1. It is represented like this in the diagram.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Git forces you to make all decsions that might affect operability of a program. If two versions have changes that affect each other, the merger must pick which direction to take so they fit together. This is more work but ensures that the merge won't break the program. 
