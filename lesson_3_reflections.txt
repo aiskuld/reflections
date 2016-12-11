@@ -1,3 +1,19 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
   Remote access is ideal when working with multiple collaborators or across multiple machine
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Forks are clones that exist within github to give attribution to the original author. Branches are similar to clones, but are less about duplicating data and more about creating new paths that allow for simultaneous development. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	Getting a copy means that you don't need to resolve any merge issues while connected to the remote host. This gives offline access and put all the responsibility to fix the merge conflict on the local machine. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Formal, in-person code reviews to discuss work done, future work (branches) and updates to the main files (merges). It would be similar workflow but not as well organized as a code organizer like git. 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	When adding a new experimental feature that might potentially break the current master, it would be beneficial to have another branch. It is harder to add it back in later, but it allows isolated development where the main focus of that branch can be that particular feature. 
